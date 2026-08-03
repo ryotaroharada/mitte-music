@@ -47,8 +47,7 @@
   - 講師写真を `instructor-img` に設定
 - [ ] **ギャラリー写真の差し替え**
   - `gallery-item` の背景色・テキストを実際の写真に置き換え
-- [ ] **Google Maps の埋め込み**
-  - `access-map` 内の `map-placeholder` をGoogle Maps iframeに差し替え
+
 
 ### 低優先度
 - [ ] SNSアカウント（Instagram / X）のリンク設定

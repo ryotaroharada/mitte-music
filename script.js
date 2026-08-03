@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const params = new URLSearchParams();
       data.forEach((value, key) => params.append(key, value));
 
-      fetch('https://formspree.io/f/your-form-id', {
+      fetch('https://formspree.io/f/mdaqqgpp', {
         method: 'POST',
         body: params,
         headers: { 'Accept': 'application/json' }
