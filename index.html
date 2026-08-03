@@ -245,8 +245,24 @@
           体験レッスンを希望する
         </label>
       </div>
-      <button type="submit" class="btn btn-primary btn-submit">送信する</button>
+      <button type="submit" class="btn btn-primary btn-submit">確認画面へ</button>
     </form>
+
+    <div class="contact-form confirm-box" id="confirmBox" style="display:none;">
+      <h3 style="margin-bottom:1.5rem;color:#4a3728;">お問い合わせ内容の確認</h3>
+      <dl class="confirm-list">
+        <dt>お名前</dt><dd id="cfName"></dd>
+        <dt>メールアドレス</dt><dd id="cfEmail"></dd>
+        <dt>電話番号</dt><dd id="cfPhone"></dd>
+        <dt>希望コース</dt><dd id="cfCourse"></dd>
+        <dt>体験レッスン希望</dt><dd id="cfTrial"></dd>
+        <dt>お問い合わせ内容</dt><dd id="cfMessage"></dd>
+      </dl>
+      <div class="confirm-actions">
+        <button type="button" class="btn btn-secondary" id="backBtn">戻る</button>
+        <button type="button" class="btn btn-primary" id="sendBtn">送信する</button>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -283,6 +299,7 @@
     </div>
     <div class="footer-bottom">
       <p>&copy; 2026 MITTE音楽教室</p>
+      <p><a href="privacy.html" style="color:#c9a88c;">プライバシーポリシー</a></p>
     </div>
   </div>
 </footer>
